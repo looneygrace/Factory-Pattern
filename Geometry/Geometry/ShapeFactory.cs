@@ -8,7 +8,8 @@ namespace Geometry
 {
     class ShapeFactory
     {
-        void getShape(ShapeType type)
+        
+        public void getShape(ShapeType type)
         {
             
             if (type == ShapeType.LINE)
@@ -36,7 +37,7 @@ namespace Geometry
         }
 
     }
-    enum ShapeType
+    public enum ShapeType
     {
         LINE,
         CIRCLE,
