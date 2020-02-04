@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    class Program
+    interface IGeometricShape
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void draw();
     }
+    
 }
