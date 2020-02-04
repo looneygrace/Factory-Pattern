@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    interface IGeometricShape
+    interface IGeometricShape 
     {
         void draw();
     }
